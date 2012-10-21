@@ -88,7 +88,7 @@ target.generic = function() {
       ['web/locale.properties', GENERIC_DIR + '/web']
     ],
     preprocess: [
-      [BUILD_TARGET, GENERIC_DIR + BUILD_TARGET],
+      [BUILD_TARGET, GENERIC_DIR + '/web'],
       [COMMON_WEB_FILES_PREPROCESS, GENERIC_DIR + '/web']
     ]
   };
